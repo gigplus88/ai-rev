@@ -52,7 +52,7 @@ const aiTypes = [
   };
 export default function AiTypes() {
   return (
-   <section id='types' className='app-container py-16 bg-black/5 dark:bg-black/10'>
+   <section id='ai-types' className='app-container py-16  dark:bg-black/10'>
         <div className="text-center mb-12">
         <span className="section-subheader">AI Technologies</span>
         <h2 className="section-header">
