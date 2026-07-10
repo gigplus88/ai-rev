@@ -38,11 +38,11 @@ html {
 @layer components {
   /* ---------- Buttons ---------- */
   .btn-primary {
-    @apply bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-lg font-medium text-center transition shadow-lg hover:shadow-primary/30;
+    @apply bg-primary hover:bg-primary/90 text-white px-6 py-2.5 rounded-lg font-medium text-center transition-transform shadow-lg hover:shadow-primary/30  hover:scale-103 duration-600;
   }
 
   .btn-outline {
-    @apply border-2 border-gray-300 hover:border-primary text-gray-700 hover:text-primary px-6 py-3 rounded-lg font-medium text-center transition;
+    @apply border-2 border-gray-300 hover:border-primary text-gray-700 hover:text-primary px-6 py-2.5 rounded-lg font-medium text-center transition hover:scale-103 duration-600;
   }
 
   /* ---------- Cards ---------- */
@@ -120,7 +120,7 @@ html {
 
   /* ---------- Avatars ---------- */
   .avatar {
-    @apply inline-block h-10 w-10 rounded-full ring-2 ring-white object-cover;
+    @apply inline-block h-10 w-10 rounded-full  ring-2 ring-white object-cover;
   }
 
   /* ---------- Contact Section ---------- */
