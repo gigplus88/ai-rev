@@ -68,9 +68,9 @@ export default function Contact() {
          <div className="bg-white rounded-xl shadow-lg p-6 lg:p-8">
           <form>
             <div className="space-y-6">
-              <div >
+              <div className="text-center">
                 <span className="section-subheader text-center">AI Revolution</span>
-                <h2 className="section-header">
+                <h2 className="section-header ">
                   Contact us with your <span className="gradient-text "> {"\t\t"} Declarations</span> 
                 </h2>
               </div>
